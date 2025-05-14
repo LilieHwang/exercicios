@@ -4,7 +4,7 @@ def obter_dados_cliente():
     nome_cliente = input("Digite seu nome: ")
     cpf_cliente = int(input("Digite seu cpf: "))
     rg_cliente = int(input("Digite o seu rg: "))
-    data_de_nascimento_cliente = int(input("Digite sua data de nascimento: "))
+    data_de_nascimento_cliente = input("Digite sua data de nascimento: "))
     endereco_cliente = input("Digite o seu endereço: ")
     cidade_cliente = input("Digite sua cidade: ")
     estado_cliente = input("Digite o seu estado: ")
@@ -34,7 +34,7 @@ def cadastrar_cliente(dados_cliente):
     return clientes 
 
 def mostrar_dados_clientes(dados_clientes):
-    for cliente in dados_clientes:s
+    for cliente in dados_clientes:
         print(f"""
               Nome do Cliente: {cliente["nome_cliente"]}
               CPF do Cliente: {cliente["cpf_cliente"]}
